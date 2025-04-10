@@ -67,7 +67,7 @@ const textNodes = [
   },
   {
     id: 3,
-    text: "As you pickup the pipe, a mechanism opens up from the wall with space indicating somethine must be left there...",
+    text: "As you pickup the pipe, a mechanism opens up from the wall with space indicating something must be left there...",
     options: [
       {
         text: "Put the pipe within the space",
