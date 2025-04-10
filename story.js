@@ -64,7 +64,7 @@ const textNodes = [
         nextText:-1
       }
     ]
-  },
-        
+  }
+]
 
 startGame()
