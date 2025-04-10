@@ -67,7 +67,7 @@ const textNodes = [
   },
   {
     id: 3,
-    text: "As you pickup the pipe a mechanism opens up from the wall with space indicating somethine must be left there...",
+    text: "As you pickup the pipe, a mechanism opens up from the wall with space indicating somethine must be left there...",
     options: [
       {
         text: "Put the pipe within the space",
@@ -125,7 +125,7 @@ const textNodes = [
   },
   {
     id: 7,
-    text: "Alas there is no way to run too and the zombie eventually catches you as you tire out and eats you.",
+    text: "Alas there is no where to run and the zombie eventually catches you as you tire out and eats you.",
     options: [
       {
         text: "Restart",
@@ -135,7 +135,7 @@ const textNodes = [
   },
   {
     id: 8,
-    text: "You punch the zombie, unfortunatly it just seems to make angrier. You are overpowered and eaten.",
+    text: "You punch the zombie, unfortunatly it just seems to make it angrier. You are overpowered and eaten.",
     options: [
       {
         text: "Restart",
