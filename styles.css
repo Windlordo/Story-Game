@@ -4,13 +4,10 @@
 }
 
 header {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
+  max-width: 500px;
+  padding: 10px;
+  margin: auto;
+  background: white;
 }
 
 body {
