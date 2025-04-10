@@ -31,8 +31,8 @@ body {
 }
 
 .btn {
-  background-color: hsl(200, 100%, 50%);
-  border: 1px solid hsl(200, 100%, 30%);
+  background-color: hsl(#DCDCDC, 100%, 50%);
+  border: 1px solid hsl(#DCDCDC, 100%, 30%);
   border-radius: 5px;
   padding: 5px 10px;
   color: white;
