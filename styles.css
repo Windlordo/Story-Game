@@ -9,13 +9,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 125vw;
-  height: 125vh;
+  width: 100vw;
+  height: 100vh;
   background-color: #339;
 }
 
 .container {
-  width: 1000px;
+  width: 800px;
   max-width: 80%;
   background-color: white;
   padding: 10px;
