@@ -45,12 +45,12 @@ const textNodes = [
     text: "You open your eyes and notice you're in a empty white room with a pipe and button lying on the floor.",
     options: [
       {
-        text: 'Pick up the pipe',
+        text: "Pick up the pipe",
         setState: { pipe: true },
         nextText: 3
       },
       {
-        text: 'Push the button.',
+        text: "Push the button.",
         nextText: 2
       }
     ]
@@ -64,7 +64,27 @@ const textNodes = [
         nextText:-1
       }
     ]
+  },
+  {
+    id: 3,
+    text: "As you pickup the pipe a mechanism opens up from the wall with space indicating somethine must be left there...",
+    options: [
+      {
+        text: "Put the pipe within the space",
+          setState: { pipe: false },
+          nextText: 4
+      },
+      {
+        text: "Smash the button from before with the pipe",
+        nextText: 5
+      },
+      {
+        text: "Wait for awhile...",
+        nextText: 4
+      }
+    ]
   }
+        
 ]
 
 startGame()
