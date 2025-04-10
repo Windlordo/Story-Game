@@ -83,8 +83,67 @@ const textNodes = [
         nextText: 4
       }
     ]
+  },
+  {
+    id: 4,
+    text: "All of a sudden another mechanism from the floor rises containing...a zombie!!",
+    options: [
+      {
+        text: "Smack the zombie on the head with your pipe",
+        requiredState: (currentState) => currentState.pipe,
+        nextText: 6
+      },
+      {
+        text: "Run away!!!",
+        nextText: 7
+      },
+      {
+        text: "Punch the zombie",
+        nextText: 8
+      }
+    ]
+  },
+  {
+    id: 5,
+    text: "The next moment you are blinded by a white light and...where am i again?",
+    options: [
+      {
+        text: "Restart?",
+        nextText: -4
+      }
+    ]
+  },
+  {
+    id: 6,
+    text: "The zombie goes down and seems to be dead (again). A doorway manifests with a scenary of a city in the distance. You have escaped?",
+    options: [
+      {
+        text: "Go again?",
+        nextText: -5
+      }
+    ]
+  },
+  {
+    id: 7,
+    text: "Alas there is no way to run too and the zombie eventually catches you as you tire out and eats you.",
+    options: [
+      {
+        text: "Restart",
+        nextText: -6
+      }
+    ]
+  },
+  {
+    id: 8,
+    text: "You punch the zombie, unfortunatly it just seems to make angrier. You are overpowered and eaten.",
+    options: [
+      {
+        text: "Restart",
+        nextText: -7
+      }
+    ]
   }
-        
+    
 ]
 
 startGame()
