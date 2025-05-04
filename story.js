@@ -52,8 +52,8 @@ const textNode = [
       {
         text: "Push the button.",
         nextText: 2
-      },
-    ],
+      }
+    ]
   },
   {
     id: 2,
@@ -62,8 +62,8 @@ const textNode = [
       {
         text: "Restart",
         nextText:-1
-      },
-    ],
+      }
+    ]
   },
   {
     id: 3,
@@ -81,8 +81,8 @@ const textNode = [
       {
         text: "Wait for awhile...",
         nextText: 4
-      },
-    ],
+      }
+    ]
   },
   {
     id: 4,
@@ -100,8 +100,8 @@ const textNode = [
       {
         text: "Punch the zombie",
         nextText: 8
-      },
-    ],
+      }
+    ]
   },
   {
     id: 5,
@@ -110,8 +110,8 @@ const textNode = [
       {
         text: "Restart?",
         nextText: -4
-      },
-    ],
+      }
+    ]
   },
   {
     id: 6,
@@ -120,8 +120,8 @@ const textNode = [
       {
         text: "Next Chapter?",
         nextText: story1b
-      },
-    ],
+      }
+    ]
   },
   {
     id: 7,
@@ -130,8 +130,8 @@ const textNode = [
       {
         text: "Restart",
         nextText: -6
-      },
-    ],
+      }
+    ]
   },
   {
     id: 8,
@@ -140,8 +140,8 @@ const textNode = [
       {
         text: "Restart",
         nextText: -7
-      },
-    ],
+      }
+    ]
   },
-];
+]
 startGame()
