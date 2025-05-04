@@ -39,7 +39,7 @@ function selectOption(option) {
   showTextNode(nextTextNodeId)
 }
 
-const textNodes = [
+const story1 = [
   {
     id: 1,
     text: "You open your eyes and notice you're in a empty white room with a pipe and button lying on the floor.",
@@ -118,8 +118,8 @@ const textNodes = [
     text: "The zombie goes down and seems to be dead (again). A doorway manifests with a scenary of a city in the distance. You have escaped?",
     options: [
       {
-        text: "Go again?",
-        nextText: -5
+        text: "Next Chapter",
+        nextText: story1b,
       }
     ]
   },
@@ -145,5 +145,93 @@ const textNodes = [
   }
     
 ]
+const story1b = [
+  {
+    id: 1,
+    text: "As you work through the doorway you are greeted with a dense jungle and dirt path. You ponder on the supposed city scape you saw before but are immediately interrupted by the growls of a tiger!",
+    options: [
+      {
+        text: "Use the pipe, it worked before...",
+        nextText: 2
+      },
+      {
+        text: "Retreat back through the doorway!",
+        nextText: 3
+      },
+      {
+        text: "Reason with the tiger?",
+        nextText: 4
+      },
+      {
+        text: "Retreat into the dense jungle!",
+        nextText: 5
+      },
+    ]
+  },
+  {
+    id: 2,
+    text: "With gusto you swing your trusty pipe at the tiger only for the beast to lunge at you. With a quick swipe from it's claws you meet your end.",
+    options: [
+      {
+        text: "Restart",
+        nextText: -1
+      },
+    ],
+  },
+  {
+    id: 3,
+    text: "As you rush through the doorway you turn to see the Jungle is not there, you are back in the white room and the doorway now appears to hold a sci-fi like interior",
+    options: [
+      {
+        text: "Walk through once more?",
+        nextText: 6
+      },
+      {
+        text: "Stay in the white room you've had enough adventuring",
+        nextText: 7
+      },
+    ],
+  },
+  {
+    id: 4,
+    text: "With all thats happened lately maybe this is a creature with intelligence? As you think this the beast has already lunged at you for it's next meal",
+    options: [
+      {
+        text: "Restart",
+        nextText: -1
+      },
+    ],
+  },
+  {
+    id: 5,
+    text: "You run and run but it gets harder to move through the dense foilage as the growls get closer until all of a sudden it fades to black",
+    options: [
+      {
+        text: "Restart",
+        nextText: -1
+      },
+    ],
+  },
+  {
+    id: 6,
+    text: "You begrudgingly walk through once more only to wake up on a medical bed in what appears to be a science lab. A man in a lab coat walks in and says that the experiment was a success. He explained that you were a willing test subject in ongoing realistic virtual reality tests",
+    options: [
+      {
+        text: "To be continued..."
+      },
+    ],
+  },
+  {
+    id: 7,
+    text: "You sit down after being exhausted from the whole ordeal. Hours, Days and even Months go by yet nothing changes. For some reason, thirst and hunger do not effect you but the same cannot be said about your mind...",
+    options: [
+      {
+        text: "Subject 001 Failed - Restart Program",
+        nextText: -1
+      },
+    ],
+  },
+];
+  
 
 startGame()
