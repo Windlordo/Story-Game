@@ -119,7 +119,7 @@ const textNodes = [
     options: [
       {
         text: "Next Chapter?",
-        nextText: story1b
+        nextText: -1
       }
     ]
   },
