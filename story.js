@@ -39,7 +39,7 @@ function selectOption(option) {
   showTextNode(nextTextNodeId)
 }
 
-const story1 = [
+const textNode = [
   {
     id: 1,
     text: "You open your eyes and notice you're in a empty white room with a pipe and button lying on the floor.",
